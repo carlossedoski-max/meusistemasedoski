@@ -1,11 +1,13 @@
 
-function login(){
+function login(event){
+
+    event.preventDefault();
 
 let email=document.getElementById("email").value;
 
 let senha=document.getElementById("senha").value;
 
-if(email==="admin@email.com"  && senha==="123456"){
+if(email==="carlossedoski@gmail.com"  && senha==="123456"){
 
 localStorage.setItem("token","123");
 

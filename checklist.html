@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <title>Checklist de Revisão</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Checklist de Revisão</h1>
+
+
+    <input
+       id="veiculo"
+       type="text"
+       placeholder="Nome do veiculo">
+
+    <input
+       id="placa"
+       type="text"
+       placeholder="Placa">
+
+    <input 
+       id="km"
+       type="number"
+       placeholder="Quilometragem Atual">
+       
+    <h2>Itens da revisão</h2>
+    
+    <label>
+
+        <input type="checkbox" id="oleo">
+
+        Troca de oleo
+
+    </label>
+
+    <label>
+
+        <input type="checkbox" id="filtro">
+
+        Filtro de oleo
+
+    </label>
+
+    <label>
+
+<input type="checkbox" id="ar">
+
+        Filtro de ar 
+
+    </label>
+
+    <label>
+
+           <input type="checkbox" id="freio">
+
+           Fluido de Freio
+
+    </label>
+
+    <label>
+
+       <input type="checkbox" id="velas">
+
+       Velas 
+
+
+    </label>
+
+    <br><br>
+
+    <button onclick="salvarChecklist()">
+
+            Salvar 
+
+    </button>
+
+</div>
+
+<script src="js/checklist.js"></script>
+
+
+</body>
+
+</html>

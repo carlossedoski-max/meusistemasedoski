@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro do Veículo</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Cadastro do Veículo</h1>
+
+<label>Marca</label>
+
+<input
+   id="marca"
+   placeholder="Ex: Toyota">
+
+<label>Modelo</label>
+  
+  <input 
+  id="modelo"
+  placeholder="Ex: Corolla">
+
+<label>Ano</label>
+
+  <input
+    id="ano"
+    type="number">
+
+<label>Placa</label>
+
+<input
+  id="placa">
+
+  <label>Combustivel</label>
+
+  <select id="combustivel">
+
+<option>Gasolina</option>
+
+<option>Etanol</option>
+
+<option>Flex</option>
+
+<option>Diesel</option>
+
+  </select>
+
+ <label>Quilometragem</label>
+ 
+ <input
+   id="km"
+   type="number">
+
+   <br><br>
+
+ <button onclick="salvarVeiculo()">
+
+  Salvar Veiculo
+
+ </button>  
+
+</div>
+
+<script src="js/cadastro.js"></script>
+
+</body>
+
+</html>

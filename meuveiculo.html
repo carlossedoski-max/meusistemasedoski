@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Meu Veículo</title>
+
+ <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<header class="topbar">
+
+<h1>🚗 Meu Veículo</h1>
+
+<button onclick="window.location.href='dashboard.html'">
+
+  🏠 Dashboard
+
+</button>
+
+</header>
+
+<div class="card">
+
+<h2 id="modelo"></h2>
+
+<p><strong>Marca:</strong>  <span id="marca"></span></p>
+
+<p><strong>Ano:</strong>  <span id="ano"></span></p>
+
+<p><strong>Placa:</strong>  <span id="placa"></span></p>
+
+<p><strong>Combustivel:</strong>   <span id="combustivel"></span></p>
+
+<p><strong>KM:</strong>   <span id="km"></span></p>
+
+<br>
+
+<button onclick="editarVeiculo()">
+
+✏️ Editar Veículo
+
+
+</button>
+
+</div>
+
+
+
+</div>
+
+<script src="js/meuveiculo.js"></script>
+
+</body>
+</html>
